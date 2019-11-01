@@ -141,7 +141,15 @@ header .logo {
 }
     #box1{
      background-color: teal;
+     -webkit-animation-name: fun; 
+     -webkit-animation-duration: 4s; 
+     animation-name: fun;
+     animation-duration: 4s;
  }
+     @-webkit-keyframes fun {
+        from {background-color: teal;}
+        to {background-color: crimson;}
+  }
     #box2{
     background-color:gold`;
 }
